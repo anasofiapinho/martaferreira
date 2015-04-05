@@ -1,0 +1,46 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Marta Ferreira</title>
+  <style>
+    body {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+
+      -webkit-flex-flow: column;
+      align-items: center;
+      -webkit-align-items: center;
+      justify-content: center;
+      -webkit-justify-content: center;
+      font-family: 'futura';
+    }
+    .pre {
+      font-size: 2em;
+    }
+    .name {
+      /*text-transform: uppercase;*/
+      font-size: 8em;
+    }
+
+    @media all and (max-width: 512px) {
+      body {
+        font-size: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="pre">Olá, eu sou a</div>
+  <div class="name">Marta</div>
+
+  <script>
+    // Random background
+    var colors = ["#DFDFFF", "#80FF80", "#EAEAFF", "#C9FFA8", "#F7F7F7", "#DDDD00"];
+    document.body.style.background = colors[Math.floor(Math.random() * colors.length)];
+  </script>
+</body>
+</html>
